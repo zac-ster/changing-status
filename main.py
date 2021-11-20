@@ -68,6 +68,7 @@ async def on_ready():
     bot.loop.create_task(status())
 
     print(f"Website: {config.Website}")
+
     print("Ready!")
 
 if config.Website == 'true':
