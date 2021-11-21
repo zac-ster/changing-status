@@ -1,4 +1,4 @@
-import discord, config, asyncio
+import discord, config, asyncio, os
 
 from flask import Flask
 
