@@ -28,8 +28,18 @@ async def status():
   
   while True:
     
-    await asyncio.sleep(10)
+    StatusContent1 = config.StatusContent1
+
+    StatusContent2 = config.StatusContent2
     
+    if StatusContent1 == None:
+
+      StatusContent1 = os.getenv("StatusContent1")
+
+    if StatusContent2 == None:
+
+      StatusContent2 = os.getenv("StatusContent2")
+
     await bot.change_presence(
         
         status=discord.Status.dnd,
@@ -38,7 +48,7 @@ async def status():
             
             type=discord.ActivityType.watching,
 #You can also use `listening` here.          
-            name=config.StatusContent1))
+            name=StatusContent1))
         
     await asyncio.sleep(10)
         
@@ -50,7 +60,7 @@ async def status():
             
             type=discord.ActivityType.watching,
 #You can also use `listening` here.            
-            name=config.StatusContent2))
+            name=StatusContent2))
     
     await asyncio.sleep(10)
 
