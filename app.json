@@ -1,0 +1,31 @@
+{
+  "name": "Changing status",
+  "description": "A simple changing status discord bot written in python",
+  "repository": "https://github.com/zac-ster/changing-status",
+  "logo": "https://avatars.githubusercontent.com/u/60801799?s=120&v=4",
+  "keywords": [
+    "python", 
+    "flask", 
+    "status"
+  ],
+  "image": "heroku/python",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "StatusContent1": {
+      "description": "First status content.",
+      "required": "true"
+    },
+    "StatusContent2": {
+      "description": "Second status content.",
+      "required": "true"
+    },
+    "Token": {
+      "description": "Your bot's token",
+      "required": "true"
+    }
+  }
+}
