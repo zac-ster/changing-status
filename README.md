@@ -19,7 +19,7 @@
 
 <p align="center">Click on the image to go to the tutorial video.</p>
 
-[![Tutorial](https://raw.githubusercontent.com/zac-ster/links-two-channels-chats/main/images/VideoThumbnail.jpeg)](https://youtu.be/dQw4w9WgXcQ)
+[![Tutorial](https://raw.githubusercontent.com/zac-ster/changing-status/main/images/VideoThumbnail.jpg)](https://youtu.be/dQw4w9WgXcQ)
 
 > If you are having problems making the bot. You can come and ask me at my [discord server](https://bit.ly/ZacDiscord)
 
